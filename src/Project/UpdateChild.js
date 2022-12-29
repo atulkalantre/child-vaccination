@@ -68,7 +68,6 @@ export default class UpdateChild extends React.Component{
                         <td>{child.cfname}</td>
                         <td>{child.clname}</td>
                         <td>{child.dob}</td>
-                       
                     </tr>)}
                 </table>
                 <form>

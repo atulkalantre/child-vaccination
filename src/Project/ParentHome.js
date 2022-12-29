@@ -68,6 +68,7 @@ export default class ParentHome extends React.Component{
                         <th>CHILD FIRST NAME</th>
                         <th>CHILD LAST NAME</th>
                         <th>DOB</th>
+                        <td>ACTION</td>
                        
                     </thead>             
                     {this.state.childs.map(child =>
@@ -77,6 +78,9 @@ export default class ParentHome extends React.Component{
                         <td>{child.cfname}</td>
                         <td>{child.clname}</td>
                         <td>{child.dob}</td>
+                        <td>
+                            <button style={{backgroundColor: '#dc3545'}} type="submit" class="btn btn-danger" onClick={() => {}}>Delete </button>
+                        </td>
                     </tbody>)
                     }
                 </table>
